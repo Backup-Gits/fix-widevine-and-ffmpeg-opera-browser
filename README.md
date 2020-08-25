@@ -1,10 +1,10 @@
 # How to fix widevine and ffmpeg problems in Opera (Linux)
 
 ## Prerequisites
-  - Google Chrome -  [here](https://www.google.pt/intl/pt-PT/chrome/)
-  - Chromium-ffmpeg - [here](https://snapcraft.io/chromium-ffmpeg)
+  - Google Chrome -  [here](https://www.google.pt/intl/pt-PT/chrome/).
+  - Chromium-ffmpeg - [here](https://snapcraft.io/chromium-ffmpeg).
 ### Chromium-ffmpef (deb) version
-  For those who prefer .deb versions, chromium is available for an unofficial [ppa](https://launchpad.net/~xalt7x/+archive/ubuntu/chromium-deb-vaapi)
+  For those who prefer .deb versions, chromium is available for an unofficial [ppa](https://launchpad.net/~xalt7x/+archive/ubuntu/chromium-deb-vaapi).
   
 ## Widevine
   Opera's default configuration already pulls widevine files directly from Chrome, that is, their configuration is not necessary.
@@ -76,4 +76,4 @@
   All libffmpeg.so files found in the chromium-ffmpeg- * folders work, feel free to shrink anyone!
   
 ### Finishing
-  After all this, save the edited files and restart your opera so that all modifications are effective
+  After all this, save the edited files and restart your opera so that all modifications are effective.
