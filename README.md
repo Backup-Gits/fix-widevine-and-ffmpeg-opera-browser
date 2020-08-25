@@ -70,6 +70,8 @@
           |-> chromium-ffmpeg-93464
           |-> chromium-ffmpeg-94142
           |-> chromium-ffmpeg-95241
+          |-> meta
+          |-> snap
   ```
   All libffmpeg.so files found in the chromium-ffmpeg- * folders work, feel free to shrink anyone!
   
