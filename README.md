@@ -73,5 +73,5 @@
   ```
   All libffmpeg.so files found in the chromium-ffmpeg- * folders work, feel free to shrink anyone!
   
-###Finishing
+### Finishing
   After all this, save the edited files and restart your opera so that all modifications are effective
