@@ -28,3 +28,32 @@
       |-> chromium-browser
         |-> libffmpeg.so
 ```
+
+## Configuring ffmpeg
+  The file to be modified is at:
+```
+  |-> usr
+    |-> lib
+      |-> x86_64-linux-gnu
+        |-> opera
+          |-> resources
+            |-> ffmpeg_preload_config.json
+```
+  We will only inform the path of the libffmpeg.so files, it will change depending on the installed version of Chromium-ffmpeg as we have already seen.
+  The original content of the files would be this:
+```json
+[
+  "../../../../chromium-ffmpeg/libffmpeg.so",
+  "/usr/lib/chromium-browser/libffmpeg.so",
+  "/usr/lib/chromium-browser/libs/libffmpeg.so"
+]
+```
+  After the added path it would look like this:
+```json
+[
+  "../../../../chromium-ffmpeg/libffmpeg.so",
+  "/usr/lib/chromium-browser/libffmpeg.so",
+  "/usr/lib/chromium-browser/libs/libffmpeg.so",
+  "/snap/chromium-ffmpeg/current/chromium-ffmpeg-95241/chromium-ffmpeg/libffmpeg.so"
+]
+```
