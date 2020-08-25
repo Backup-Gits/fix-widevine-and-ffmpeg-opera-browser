@@ -1,4 +1,4 @@
-# How to solve widevine and ffmpeg problems in Opera (Linux)
+# How to fix widevine and ffmpeg problems in Opera (Linux)
 
 ## Prerequisites
   - Google Chrome -  [here](https://www.google.pt/intl/pt-PT/chrome/)
