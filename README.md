@@ -28,7 +28,6 @@
       |-> chromium-browser
         |-> libffmpeg.so
 ```
-
 ## Configuring ffmpeg (Not needed for the (deb) version of chromium)
   The file to be modified is at:
 ```
@@ -57,3 +56,22 @@
   "/snap/chromium-ffmpeg/current/chromium-ffmpeg-95241/chromium-ffmpeg/libffmpeg.so"
 ]
 ```
+  A list of versions of chromium-ffmpeg (snap):
+  ```
+    |-> / <- root directory
+     |-> snap
+       |-> chromium-ffmpeg
+         |-> current
+          |-> chromium-ffmpeg-91124
+          |-> chromium-ffmpeg-91696
+          |-> chromium-ffmpeg-92142
+          |-> chromium-ffmpeg-92393
+          |-> chromium-ffmpeg-92972
+          |-> chromium-ffmpeg-93464
+          |-> chromium-ffmpeg-94142
+          |-> chromium-ffmpeg-95241
+  ```
+  All libffmpeg.so files found in the chromium-ffmpeg- * folders work, feel free to shrink anyone!
+  
+###Finishing
+  After all this, save the edited files and restart your opera so that all modifications are effective
