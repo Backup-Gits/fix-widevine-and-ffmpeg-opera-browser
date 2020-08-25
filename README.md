@@ -29,7 +29,7 @@
         |-> libffmpeg.so
 ```
 
-## Configuring ffmpeg
+## Configuring ffmpeg (Not needed for the (deb) version of chromium)
   The file to be modified is at:
 ```
   |-> usr
