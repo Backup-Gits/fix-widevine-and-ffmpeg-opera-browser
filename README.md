@@ -1,4 +1,4 @@
-# How to fix widevine and ffmpeg problems in Opera (Linux)
+# How to fix widevine and ffmpeg problems in Opera-Browser (Deb) version on Linux
 
 ## Prerequisites
   - Chromium-ffmpeg - [here](https://snapcraft.io/chromium-ffmpeg).
