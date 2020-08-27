@@ -3,7 +3,7 @@
 ## Prerequisites
   - Chromium-ffmpeg - [here](https://snapcraft.io/chromium-ffmpeg).
   - Google Chrome -  [here](https://www.google.pt/intl/pt-PT/chrome/). #optional
-### Chromium-ffmpef (deb) version
+### Chromium-ffmpeg (deb) version
   For those who prefer .deb versions, chromium is available for an unofficial [ppa](https://launchpad.net/~xalt7x/+archive/ubuntu/chromium-deb-vaapi).
   
 ## Widevine
