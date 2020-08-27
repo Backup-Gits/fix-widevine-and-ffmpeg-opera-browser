@@ -9,10 +9,10 @@
 ## Widevine
 
 ### Solution One
-  You can just install Google Chrome and keep it as a "dependency" on Opera. In this case, Opera's default configuration would already pull the WidevineCmd directory directly from Chrome, that is, its configuration would not be necessary.
+  You can just install Google Chrome and keep it as a "dependency" on Opera. In this case, Opera's default configuration would already pull the WidevineCdm directory directly from Chrome, that is, its configuration would not be necessary.
   
 ### Solution Two
-  The WidevineCdm directory is inside your user's ".config / opera" folder, just not being pointed in the widevinecmd configuration file. Your solution would be to just point this directory in the file.
+  The WidevineCdm directory is inside your user's ".config / opera" folder, just not being pointed in the widevinecdm configuration file. Your solution would be to just point this directory in the file.
   
 The WidevineCdm folder can be found by these paths:
 ```
@@ -20,7 +20,7 @@ The WidevineCdm folder can be found by these paths:
     |-> your-username
       |-> .config
         |-> opera
-          |-> WidevineCmd
+          |-> WidevineCdm
             |-> 4.10.1610.0 <- our configuration file should point directly to this folder
 ```
 The widevinecdm configuration file can be found by following the path:
