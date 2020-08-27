@@ -37,7 +37,7 @@ The widevinecdm configuration file can be found by following the path:
 you can just replace the contents of the file with the widevinecdm directory, leaving you like this:
 ```json
 [
-    "/home/you-username/.config/opera/WidevineCdm/4.10.1610.0"
+    "/home/your-username/.config/opera/WidevineCdm/4.10.1610.0"
 ]
 ```
 or add the directory at the end of the file, like this:
