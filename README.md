@@ -16,12 +16,13 @@
   
 The WidevineCdm folder can be found by these paths:
 ```
-  |-> home
-    |-> your-username
-      |-> .config
-        |-> opera
-          |-> WidevineCdm
-            |-> 4.10.1610.0 <- our configuration file should point directly to this folder
+  |-> /
+    |-> home
+      |-> your-username
+        |-> .config
+          |-> opera
+            |-> WidevineCdm
+              |-> 4.10.1610.0 <- our configuration file should point directly to this folder
 ```
 The widevinecdm configuration file can be found by following the path:
 ```
