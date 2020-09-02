@@ -24,6 +24,8 @@ The WidevineCdm folder can be found by these paths:
             |-> WidevineCdm
               |-> 4.10.1610.0 <- our configuration file should point directly to this folder
 ```
+In case the WidevineCdm directory is not present in the opera folder, enter the address [opera://components](opera://components) and try to update all the components in the list.
+
 The widevinecdm configuration file can be found by following the path:
 ```
   |-> /
