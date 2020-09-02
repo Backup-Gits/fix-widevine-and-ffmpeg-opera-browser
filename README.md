@@ -24,7 +24,7 @@ The WidevineCdm folder can be found by these paths:
             |-> WidevineCdm
               |-> 4.10.1610.0 <- our configuration file should point directly to this folder
 ```
-In case the WidevineCdm directory is not present in the opera folder, enter the address [opera://components](opera://components) and try to update all the components in the list.
+In case the WidevineCdm directory is not present in the opera folder, enter the address opera://components and try to update all the components in the list.
 
 The widevinecdm configuration file can be found by following the path:
 ```
@@ -122,3 +122,6 @@ or add the directory at the end of the file, like this:
   
 ### Finishing
   After all this, save the edited files and restart your opera so that all modifications are effective.
+  
+### Obs
+  Have a copy of the edited files, because with each new update of the opera these files are reset to their original version. If this happens just edit the files again or paste the copies of the files already edited.
