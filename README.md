@@ -52,6 +52,8 @@ or add the directory at the end of the file, like this:
   "/home/you-username/.config/opera/WidevineCdm/4.10.1610.0"
 ]
 ```
+If the WidevineCdm folder is not found within /home/your-user/.config/opera, access the [opera://components](opera://components) page and click on the "Check for Update" button for each component.
+
 ## FFmpeg
   In the snap version the files can be found like this:
 ```
